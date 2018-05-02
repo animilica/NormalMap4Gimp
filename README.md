@@ -14,7 +14,7 @@ The whole installation process can be seen on this link: https://youtu.be/w3LpWO
 ### Prerequisites
 
 
-Software necessary for using the plugin is Gimp version 2.0 or newer.
+Software necessary for using the plugin is Gimp version 2.0 or newer. (not tested with GIMP 2.10)
 
 ```
 Gimp download link: www.gimp.org
