@@ -25,7 +25,7 @@ Copy normal-map.py to the gimp plugin folder, usually C:\Program Files\GIMP 2\li
 
 
 
-###Running the tests
+### Running the tests
 After starting up Gimp, load the desired picture and go to Filters/Map/Normal Map in the dropdown menu
 You get a dialog where you can choose the filter strength (from 0 to 1) when it starts up.
 
