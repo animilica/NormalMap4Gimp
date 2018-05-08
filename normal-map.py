@@ -67,10 +67,7 @@ def normal_map(img, layer, strength) :
             xDelta = ((xLeft[0]*strength-xRight[0]*strength)+255)*0.5
             yDelta = ((yUp[0]*strength-yDown[0]*strength)+255)*0.5
             newColor = [int(xDelta),int(yDelta),255,255]
-            #pdb.gimp_message("vrednost boje: {} ".format(newColor)) #ispis boje svih piksela
             normal.set_pixel(x,y,newColor)
-   
-    #pdb.gimp_message("done")
     
     # Update the layer.
     normal.update(0, 0, normal.width, normal.height)
